@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+
+@media screen and (min-width: 320px) {
+    .bgColorGlobal {
+        background-color: #151515;
+    }
+    /* NavBar */
+    .navLinks a {
+        color: #43d57b;
+    }
+    .navLinks a:hover {
+        color: white;
+    }
+    .logoImg {
+        width: 150px;
+    }
+    /* Banner */
+    .bannerBg {
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .bannerFirstRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bannerFirstRow p {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        border: 1px solid white;
+        padding: 10px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .bannerFirstRow h1 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .bannerFirstRow h1 span {
+        font-size: 18px;
+        color: #43d57b;
+    }
+    .bannerFirstRow .FRSocial{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 20px 0px;
+    }
+    .bannerFirstRow .FRSocial a img {
+        width: 40px;
+    }
+    .bannerSecondRow {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .bannerSecondRow img {
+        width: 250px;
+        border-radius: 50%;
+        -webkit-box-shadow: 5px 6px 6px -1px rgba(0,0,0,0.62); 
+        box-shadow: 5px 6px 6px -1px rgba(0,0,0,0.62);
+        animation: updown 3s linear infinite;
+        margin-top: 25px;
+    }
+    @keyframes updown {
+        0% {
+            transform: translateY(-20px);
+        }
+        50% {
+            transform: translateY(20px);
+        }
+        100% {
+            transform: translateY(-20px);
+        }
+    }
+    .banner2Bg {
+        border-radius: 20%;
+        background: #1f7741;
+        border-radius: 64px;
+        text-align: center;
+        padding: 60px 50px;
+    }
+    .banner2Bg h2 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .banner2Bg p {
+        color: rgb(211, 210, 210);
+        font-family: 'Poppins', sans-serif;
+    }
+    .skill-slider h5 {
+        color: white;
+    }
+    .banner3Bg {
+        margin-top: 20px;
+    }
+    .banner3Bg h2 {
+        color: white;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    /* Tabs */
+    .banner3Bg ul {
+        display: flex;
+        justify-content: center;
+    }
+    .baseTab {
+        border: 1px solid  #212529 !important;
+        background-color: #212529 !important;
+        color: #43d57b !important;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+    }
+    .activeTab{
+        border: 1px solid  white !important;
+        background-color: white !important;
+        color: black !important;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+    }
+    .banner3Bg .nav-item {
+        background: transparent;
+        border-radius: 5px;
+    }
+    .banner3Bg .card {
+        color: white;
+        text-align: center;
+        background-color: #212529;
+    }
+    .banner3Bg .card a {
+        text-decoration: none;
+        color: rgb(55, 149, 207);
+    }
+    .card .card-body .card-text p {
+        color: #43d57b;
+    }
+    /* Footer */
+    .bgFooter {
+        background-color: #212529;
+        color: white;
+        display: flex;
+        gap: 20px;
+        padding: 20px 0px;
+        justify-content: space-around;
+    }
+    .bgFooter .footerSocial {
+        display: flex;
+        gap: 20px;
+    }
+    .logoFooter {
+        width: 50px;
+    }
+    .socialImg {
+        width: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bannerFirstRow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bannerFirstRow p {
+        font-size: 28px;
+    }
+    .bannerFirstRow h1 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 48px;
+    }
+    .bannerFirstRow h1 span {
+        font-size: 24px;
+        color: #43d57b;
+    }
+    .bannerFirstRow .FRSocial{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 20px 0px;
+    }
+    .bannerFirstRow .FRSocial a img {
+        width: 64px;
+    }
+    .bgFooter {
+        background-color: #212529;
+        color: white;
+        display: flex;
+        gap: 20px;
+        padding: 20px 50px;
+        justify-content: space-between;
+    }
+    .bgFooter .footerSocial {
+        display: flex;
+        gap: 20px;
+    }
+    .logoFooter {
+        width: 100px;
+    }
+    .socialImg {
+        width: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bannerBg .container {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    .bannerSecondRow img {
+        width: 400px;
+    }
+    .bannerFirstRow .FRSocial{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 40px 0px;
+    }
+    .bgFooter {
+        background-color: #212529;
+        color: white;
+        display: flex;
+        gap: 20px;
+        padding: 20px 60px;
+        justify-content: space-between;
+    }
+    .bgFooter .footerSocial {
+        display: flex;
+        gap: 20px;
+    }
+    .logoFooter {
+        width: 120px;
+    }
+    .socialImg {
+        width: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .bgFooter {
+        background-color: #212529;
+        color: white;
+        display: flex;
+        gap: 20px;
+        padding: 20px 80px;
+        justify-content: space-between;
+    }
+    .bgFooter .footerSocial {
+        display: flex;
+        gap: 20px;
+    }
+    .logoFooter {
+        width: 180px;
+    }
+    .socialImg {
+        width: 48px;
+    }
+}
